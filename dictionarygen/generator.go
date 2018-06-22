@@ -6,7 +6,7 @@ import (
 	"go/format"
 	"strconv"
 
-	"layeh.com/radius/dictionary"
+	"github.com/ClarksonCJ/radius/dictionary"
 )
 
 type externalAttribute struct {
@@ -178,7 +178,7 @@ func (g *Generator) Generate(dict *dictionary.Dictionary) ([]byte, error) {
 	p(&w, `	"strconv"`)
 	p(&w, `	"time"`)
 	p(&w)
-	p(&w, `	"layeh.com/radius"`)
+	p(&w, `	"github.com/ClarksonCJ/radius"`)
 	if len(externalAttributes) > 0 {
 		printedNewLine := false
 		for _, exAttr := range externalAttributes {

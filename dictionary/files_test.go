@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	dict "layeh.com/radius/dictionary"
+	dict "github.com/ClarksonCJ/radius/dictionary"
 )
 
 type MemoryFile struct {

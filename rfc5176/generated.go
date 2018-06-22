@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"layeh.com/radius"
+	"github.com/ClarksonCJ/radius"
 
-	. "layeh.com/radius/rfc3576"
+	. "github.com/ClarksonCJ/radius/rfc3576"
 )
 
 var _ = radius.Type(0)
